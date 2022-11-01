@@ -1,0 +1,129 @@
+.botonpositivo {
+
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #009E3D;
+    border: solid #0ea157 2px;
+    height: 2vw;
+    width: 2vw;
+    text-decoration: none;
+    margin-right: .4vw;
+  }
+  
+  .botonpositivo:hover {
+    background: #02a352;
+    text-decoration: none;
+  }
+
+  .boton-reiniciar {
+
+    font-family: Arial;
+    color: #ffffff;
+    height: 2vw;
+    width: 2vw;
+    font-size: 20px;
+    background: #E62336;
+    border: solid #E62336 2px;
+
+    text-decoration: none;
+  }
+  
+  .boton-reiniciar:hover {
+    background: #fd8037;
+    text-decoration: none;
+  }
+
+  .counter{
+    width: 4vw;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #E62336;
+    background-color: #E5DCD5;
+    margin-bottom: 5px
+  }
+
+  .equipo1{
+    width: 4vw;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #F18700;
+    background-color: #E5DCD5;
+    margin-bottom: 5px
+  }
+
+  .equipo2{
+    width: 4vw;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #E62336;
+    background-color: #E5DCD5;
+    margin-bottom: 5px
+  }
+
+  .equipo3{
+    width: 4vw;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #0069B4;
+    background-color: #E5DCD5;
+    margin-bottom: 5px
+  }
+  .equipo4{
+    width: 4vw;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #009E3D;
+    background-color: #E5DCD5;
+    margin-bottom: 5px
+  }
+  .equipo5{
+    width: 4vw;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid black;
+    background-color: #E5DCD5;
+    margin-bottom: 5px
+  }
+
+  .contenedor-puntos{
+    height: 100px;
+    min-width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 2vw;
+  }
+
+  .contenedor-botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }

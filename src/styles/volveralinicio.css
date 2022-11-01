@@ -1,0 +1,66 @@
+.exterior {
+    position: relative;
+    margin: auto;
+    width: 30px;
+    cursor: pointer;
+    margin-top: 2vh;
+  }
+  
+  .interior {
+    width: inherit;
+    text-align: center;
+  }
+  
+  label { 
+    font-size: .7vw; 
+    line-height: 4em;
+    text-transform: uppercase;
+    color: #fd8037;
+    transition: all .3s ease-in;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .interior:before, .interior:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: inherit;
+    background: #fd8037;
+    left: 0;
+    transition: all .3s ease-in;
+  }
+  
+  .interior:before {
+    top: 50%; 
+    transform: rotate(45deg);  
+  }
+  
+  .interior:after {  
+    bottom: 50%;
+    transform: rotate(-45deg);  
+  }
+  
+  .exterior:hover label {
+    opacity: 1;
+  }
+  
+  .exterior:hover .interior:before,
+  .exterior:hover .interior:after {
+    transform: rotate(0);
+  }
+  
+  .exterior:hover .interior:before {
+    top: 0;
+  }
+  
+  .exterior:hover .interior:after {
+    bottom: 0;
+  }
+
+  .volver-inicio{
+    text-decoration: none;
+    position:fixed;
+    top: 1rem;
+    right: 1rem
+  }

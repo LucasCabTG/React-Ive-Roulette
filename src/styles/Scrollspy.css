@@ -1,0 +1,56 @@
+.scrollspyruleta {
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    -webkit-box-shadow: 0px 6px 0px #1b3ea8;
+    -moz-box-shadow: 0px 6px 0px #1b3ea8;
+    box-shadow: 0px 6px 0px #1b3ea8;
+    font-family: Arial;
+    color: #fff;
+    font-size: 20px;
+    background: #0069B4;
+    padding: 40px 20px 40px 20px;
+    border: solid #ffffff 0px;
+    text-decoration: none;
+    min-width: 300px;
+    margin-top: 10vh;
+    font-weight: bold;
+    margin: 2vw;
+
+  }
+  
+  .scrollspyruleta:hover {
+    background: #4567da;
+    text-decoration: none;
+  }
+
+  .scrollspyrapid {
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    -webkit-box-shadow: 0px 6px 0px #512c6d;
+    -moz-box-shadow: 0px 6px 0px #512c6d;
+    box-shadow: 0px 6px 0px #512c6d;
+    font-family: Arial;
+    color: #fff;
+    font-size: 20px;
+    background: #6D3E91;
+    padding: 40px 20px 40px 20px;
+    border: solid #ffffff 0px;
+    text-decoration: none;
+    min-width: 300px;
+    margin-top: 10vh;
+    font-weight: bold;
+    margin: 2vw;
+
+  }
+  
+  .scrollspyrapid:hover {
+    background: #8348b1;
+    text-decoration: none;
+  }
+
+ 
+
+
+  

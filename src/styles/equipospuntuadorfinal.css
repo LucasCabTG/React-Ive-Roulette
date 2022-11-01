@@ -1,0 +1,144 @@
+.equipospuntuadorfinal{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    flex-direction: wrap;
+}
+
+.equiponaranja{
+    height: 8vh;
+    width: 8vh;
+    background-color: #fff;
+    border: 5px solid #F18700;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 5vw;
+    margin-bottom: 4vh;
+}
+
+.nombreequiponaranja{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F18700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+
+}
+
+.equiporojo{
+    height: 8vh;
+    width: 8vh;
+    background-color: #fff;
+    border: 5px solid #E62336;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 5vw;
+    margin-bottom: 4vh;
+
+}
+
+.nombreequiporojo{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #E62336;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+
+}
+
+.equipoazul{
+    height: 8vh;
+    width: 8vh;
+    background-color: #fff;
+    border: 5px solid #0069B4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 5vw;
+    margin-bottom: 4vh;
+
+}
+
+.nombreequipoazul{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0069B4;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+
+}
+
+.equipoverde{
+    height: 8vh;
+    width: 8vh;
+    background-color: #fff;
+    border: 5px solid #009E3D;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 5vw;
+    margin-bottom: 4vh;
+
+}
+
+.nombreequipoverde{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #009E3D;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+
+}
+
+.equiponegro{
+    height: 8vh;
+    width: 8vh;
+    background-color: #fff;
+    border: 5px solid #131414;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 5vw;
+
+}
+
+.nombreequiponegro{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #131414;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}

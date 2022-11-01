@@ -1,0 +1,267 @@
+
+
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+
+}
+
+button{
+  cursor: pointer
+}
+
+.gridpuntajes{
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.gridboton{
+  margin-right: 2vw;
+  margin-top: -1vw;
+}
+
+.botonfinal{
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    -webkit-box-shadow: 0px 6px 0px #bb1425;
+    -moz-box-shadow: 0px 6px 0px #bb1425;
+    box-shadow: 0px 6px 0px #bb1425;
+    font-family: Arial;
+    color: #fff;
+    font-size: 20px;
+    background: #E62336;
+    padding: 10px 10px 10px 10px;
+    border: solid #ffffff 0px;
+    text-decoration: none;
+    max-width: 15vw;
+    margin-top: 10vh;
+    font-weight: bold;
+    margin: 2vw;
+
+  }
+  
+  .botonfinal:hover {
+    background: #8f0916;
+    text-decoration: none;
+  }
+
+
+
+.juego-ruleta{
+  height: 100%;
+  background-image: url(./image/fondoamarillo.jpg);
+  background-size: 100%;
+  background-position: center;
+
+}
+
+.findeljuego{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image/fondoamarillo.jpg);
+  background-size: 100%;
+  background-position: center;
+  flex-direction: column;
+}
+
+.gracias{
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 2vh;
+}
+.titulofindeljuego{
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 5vh;
+  background-color: #fff;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  border: 7px dotted #F18700;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  height: 100vh;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.menu-inicio{
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(./image/Fondoinicio.jpg);
+  background-size: 100%;
+}
+
+.inicio-grid{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuconfiguracion{
+  height: 100vh;
+  background-image: url(./image/fondovioleta.jpg);
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RondaRapid{
+  background-image: url(./image/fondovioleta.jpg);
+  background-size: 100%;
+  background-position: center;
+
+  height: 100vh;
+  display: flex;
+
+}
+
+.menu-inicio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.BotonesScroll{
+  right: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  top: 50vh;
+}
+
+.botonvioleta{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headervioleta{
+  margin-left: 90%;
+}
+
+.chekers{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  left: 2vh;
+  font-weight: bold;
+  color: black;
+}
+
+.chekersindividuales{
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  height: 7vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  padding-top: 2vh;
+  
+  
+}
+
+.colectivoCheckers{
+  background: rgba(214, 214, 214, 0.2);
+  background-image: -webkit-linear-gradient(top, rgba(214, 214, 214, 0.2)4b rgba(214, 214, 214, 0.2)d6);
+  background-image: -moz-linear-gradient(top, rgba(214, 214, 214, 0.2), rgba(214, 214, 214, 0.2)71);
+  background-image: -ms-linear-gradient(top, rgba(214, 214, 214, 0.2), rgba(214, 214, 214, 0.2));
+  background-image: -o-linear-gradient(top, rgba(214, 214, 214, 0.2), rgba(214, 214, 214, 0.2));
+  background-image: linear-gradient(to bottom, rgba(214, 214, 214, 0.2), rgba(214, 214, 214, 0.2));
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  -webkit-box-shadow: 0px 4px 8px #666666;
+  -moz-box-shadow: 0px 4px 8px #666666;
+  box-shadow: 0px 4px 8px #666666;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  padding: 40px 40px 40px 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.alinearderecha{
+  float: right;
+}
+
+
+/* CHECKBOX */
+input[type=checkbox]{
+  font-size: 30px;
+  appearance: none;
+  width: 50px;
+  height: 22px;
+  background-color: #009E3D;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all ease-in-out;
+}
+
+input[type=checkbox]:checked{
+  background-color: #E62336;
+}
+
+input[type=checkbox]::after{
+  position: absolute;
+  content: "";
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+  transform: scale(0.7);
+  left: 0;
+  transition: 0.2s all ease-in-out;
+}
+
+input[type=checkbox]:checked::after{
+  left: calc(100% - 22px);
+}
+
+.containercheckbox{
+  width: 100%;
+  height: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  right: 1vw;
+}
+
+.textocheckers{
+  width: 100%;
+  height: 100vw;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  align-items: center;
+  left: 1vw
+}
